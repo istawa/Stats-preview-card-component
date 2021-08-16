@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### Links
 
 - Solution URL: [See solution URL here](https://github.com/istawa/Stats-preview-card-component)
-- Live Site URL: [See live site URL here](https://your-live-site-url.com)
+- Live Site URL: [See live site URL here](https://611a2ed48af9b509fe84a7c1--focused-snyder-86bbab.netlify.app)
 
 ## My process
 
