@@ -1,0 +1,162 @@
+body{
+    width: 100%;
+    height: auto;
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+    font-weight: 400;
+}
+
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+
+
+h1, h2{
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%, 0.75);
+}
+
+span{
+    color: hsl(277, 64%, 61%);
+}
+
+p{
+    color: hsl(0, 0%, 100%, 0.75);
+}
+
+.info > p{
+    color: hsl(0, 0%, 100%, 0.6);
+}
+
+.split{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 340px;
+    height: auto;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 2%;
+    margin: auto;
+}
+
+.text{
+    display: block;
+    text-align: center;
+    padding: 1.5em;
+}
+
+.paragraf{
+    max-width: 16em;
+    line-height: 1.6em;
+    text-align: center;
+    margin: auto;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.text > .split{
+    width: 50%;
+}
+
+.desktop{
+    display: none;
+}
+
+.text > h1{
+    max-width: 10em;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.text > p{
+    padding-bottom: 25px;
+}
+
+.info > h2{
+    margin-bottom: 0;
+}
+
+.info > p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.people{
+    background-color: hsl(277, 62%, 35%);
+    width: 340px;
+    height: 250px;
+    border-radius: 2% 2% 0 0;
+}
+
+
+
+@media (min-width: 1040px){
+    .people{
+        background-color: hsl(277, 62%, 35%);
+        width: 520px;
+        height: auto;
+        border-radius: 0 2% 2% 0;
+    }
+
+    .image{
+        position: absolute;
+        width: auto;
+        height: auto;
+        right: -20px;
+    }
+
+    .split{
+        flex-direction: row;
+        width: 1080px;
+        margin: 3em;
+    }
+
+    .text > .split{
+        width: 50%;
+    }
+
+    .info{
+        text-align: left;
+        padding-right: 4em;
+    }
+
+    .text{
+        display: block;
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+    .text > h1{
+        margin-left: 0.5em;
+        max-width: 12em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .paragraf{
+        padding-bottom: 0em;
+        max-width: 24em;
+        text-align: left;
+        margin-left: 3em;
+    }
+
+    .desktop{
+        display: block;
+        width: 100%;
+        border-radius: 0 2% 2% 0;
+        opacity: 35%;
+    }
